@@ -10,6 +10,7 @@
 		return (scope || document).querySelectorAll(selector);
 	};
 
+
 	// addEventListener wrapper:
 	window.$on = function (target, type, callback, useCapture) {
 		target.addEventListener(type, callback, !!useCapture);
